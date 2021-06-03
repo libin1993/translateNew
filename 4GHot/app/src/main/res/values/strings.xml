@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">便携式翻译定位</string>
+    <string name="tab_history_and_export">历史数据查询及导出</string>
+    <string name="lab_imsi">IMSI：</string>
+    <string name="lab_msisdn">手机号：</string>
+    <string name="save">保 存</string>
+    <string name="btn_import">导 入</string>
+    <string name="user_add">添 加</string>
+    <string name="cancel">取 消</string>
+    <string name="clear_history">清除侦码历史数据</string>
+    <string name="user_manege">用户管理</string>
+    <string name="user_black_box">黑匣子</string>
+    <string name="lab_device_ip">设备IP：</string>
+    <string name="custom_fcn">自定义频点</string>
+    <string name="wifi_setting">Wifi设置</string>
+    <string name="power_control">功率档位:</string>
+    <string name="detect_carrier_operate">侦码制式:</string>
+    <string name="all_rf_open">射频全部开启</string>
+    <string name="all_rf_close">射频全部关闭</string>
+    <string name="all_rf_switch">射频总开关：</string>
+    <string name="rf_channel">射频通道：</string>
+    <string name="tip_07">确定退出程序?退出后将无法正常工作</string>
+    <string name="tip_08">当前手机不支持中文播报！</string>
+    <string name="tip_15">设置请求已发送！</string>
+    <string name="tip_16">参数输入有误！请检查</string>
+    <string name="exist_whitelist">已存在相同的黑名单</string>
+    <string name="same_user">已存在此账户，请确认再输入</string>
+    <string name="same_imsi">已存在此IMSI，请确认再输入</string>
+    <string name="set_cell_reboot">成功下发小区配置，请等待设备重启</string>
+    <string name="lable_reboot">重启设备</string>
+    <string name="set_cell_fail">设置小区配置失败</string>
+    <string name="lable_set_cell">小区配置</string>
+    <string name="lable_set_channel">通道配置</string>
+    <string name="lable_refresh_param">刷新参数</string>
+    <string name="lab_keyword">关键字：</string>
+    <string name="lab_start_time">开始时间：</string>
+    <string name="lab_end_time">结束时间：</string>
+    <string name="search">搜索</string>
+    <string name="export_search_res">导出搜索结果</string>
+    <string name="loc_not_start">搜寻未开始</string>
+    <string name="add">添加</string>
+    <string name="lab_rpt_time">上报时间：</string>
+    <string name="ueid_last_intensity">场强：</string>
+    <string name="search_not_found">未搜索到对应的数据</string>
+    <string name="can_not_export_search">未搜索到数据，无法导出</string>
+    <string name="set_now">立即设置</string>
+    <string name="clear_realtime_ueid">清空实时数据</string>
+    <string name="no_sim_card">未插卡</string>
+    <string name="no">无</string>
+    <string name="clear_success">清除成功</string>
+    <string name="failed">失败了</string>
+    <string name="del_history_error">删除历史数据出错！</string>
+    <string name="rf_close">设置已下发，请等待所有通道射频关闭</string>
+    <string name="rf_open">设置已下发，请等待所有通道射频开启</string>
+    <string name="sure">确 定</string>
+    <string name="exit_app">退出程序！</string>
+    <string name="change_tac">更新TAC</string>
+    <string name="add_success">添加成功</string>
+    <string name="modify_user_fail">修改用户失败！</string>
+    <string name="modify_whitelist_fail">修改黑名单失败！</string>
+    <string name="modify_user_success">修改用户成功！</string>
+    <string name="modify_user_fail_ftp">修改用户失败,请确保与设备网络畅通</string>
+    <string name="modify_admin_success">修改管理员账户成功，下次登录即生效</string>
+    <string name="modify_admin_fail_ftp">修改管理员账户失败,请确保与设备网络畅通</string>
+    <string name="modify_admin_fail">修改账户失败</string>
+    <string name="title_modify_user_info">用户信息修改</string>
+    <string name="title_modify_admin_account">管理员信息修改</string>
+    <string name="del_user_fail">删除用户失败！</string>
+    <string name="del_user_fail_ftp_error">删除用户失败，请检查网络！</string>
+    <string name="del_white_list_fail">删除黑名单失败！</string>
+    <string name="add_user_fail">添加用户失败</string>
+    <string name="add_whitelist_fail">添加黑名单失败</string>
+    <string name="add_user_fail_ftp">添加用户失败,请检查网络</string>
+    <string name="low_power">电池电量过低</string>
+    <string name="low_power_warning">当前电池电量过低，已无法保证正常工作，请及时更换电池！</string>
+    <string name="time_point">时间点：</string>
+    <string name="start_scan_freq">开始搜网</string>
+    <string name="set_selected_fcn">设置开机扫描频点</string>
+    <string name="button_loc_unstart">请从列表中选择要监控的名单</string>
+
+    <string name="hw_version">硬件版本：</string>
+    <string name="sw_version">软件版本：</string>
+
+    <string name="authorize_code">授权码：</string>
+    <string name="machine_id">机器码：</string>
+    <string name="due_time">到期时间：</string>
+    <string name="authorize_info">授权信息</string>
+    <string name="authorize">授 权</string>
+
+
+    <string name="add_user">添加普通用户</string>
+    <string name="modify_whitelist">修改黑名单</string>
+    <string name="modify_admin">修改当前账户</string>
+
+    <string name="account2">账号：</string>
+    <string name="password">密码：</string>
+    <string name="user_remake">备注</string>
+    <string name="user_remake2">备注：</string>
+
+
+    <string name="account_rule">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="fcn_rule">0123456789,</string>
+    <string name="number_rule">0123456789</string>
+    <string name="pa_rule">-0123456789,</string>
+
+    <string name="upload_url_lab">上传地址：</string>
+</resources>

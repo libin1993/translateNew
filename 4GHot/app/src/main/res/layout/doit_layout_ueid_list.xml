@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <!--    <android.support.v7.widget.RecyclerView-->
+    <!--        android:id="@+id/rv_ueid"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_marginBottom="2dp"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:background="@drawable/ueid_bkg"-->
+    <!--        android:scrollbarThumbVertical="@drawable/scrollbar_style"-->
+    <!--        android:scrollbars="vertical" />-->
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/ueid_bkg"
+        android:divider="@drawable/comman_listview_divider"
+        android:dividerHeight="1dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_style"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/deepgrey2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="汇总:"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ctj_icon" />
+
+        <TextView
+            android:id="@+id/tvCTJCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="start|center_vertical"
+            android:text="0"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ctu_icon" />
+
+        <TextView
+            android:id="@+id/tvCTUCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="start|center_vertical"
+            android:text="0"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ctc_icon" />
+
+        <TextView
+            android:id="@+id/tvCTCCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="start|center_vertical"
+            android:text="0"
+            android:textColor="@color/darkgrey"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_button_bkg"
+            android:text="@string/clear_realtime_ueid"
+            android:textColor="@color/darkorange" />
+
+
+        <CheckBox
+            android:id="@+id/cbDetectSwitch"
+            android:layout_width="96.7dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/detect_switch_style"
+            android:button="@null"
+            android:checked="true"
+            android:text=""
+            android:textSize="1sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
